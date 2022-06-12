@@ -113,9 +113,12 @@ console.log(xyz);
 
 // #######################################
 
-
-
 // BLOCK SCOPE
+
+// Block: insid {}
+
+console.log(a);
+
 // variable declare iside this{} cannot asses
 // EXAMPLE : 1
 // {
