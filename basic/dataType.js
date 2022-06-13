@@ -283,8 +283,10 @@ console.log("who teach css", subjectTeacherObj.CSS);
 let deleteValue= subjectTeacherObj["English"];
 
 console.log("deleted value",deleteValue);
+// store is english key is delted or not
 let isDeleted =  delete subjectTeacherObj["English"]; // true or false
 console.log("after delete english subject", subjectTeacherObj);
 console.log("delete value ", isDelete);
+
 
 
