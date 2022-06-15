@@ -288,5 +288,51 @@ let isDeleted =  delete subjectTeacherObj["English"]; // true or false
 console.log("after delete english subject", subjectTeacherObj);
 console.log("delete value ", isDelete);
 
+////////////////////////////////////////////////
 
+let studentDetailsObj = { // key-> string, values -> object
+    Anjana : {
+            rollNo : 12,
+            section : "C",
+            stream : "Commerce",
+            contactNo : 92345668835
+        },
+    Anu : {
+            rollNo : 2,
+            section : "B",
+            stream : "Commerce",
+            contactNo : 92345668345
+        },
+    Gochu : {
+        rollNo : 5,
+        section : "C",
+        stream : "science",
+        contactNo : 122345556,
+    }
+}
 
+console.log("studetn Details Obj", studentDetailsObj );
+
+// fetch###
+console.log("Gochu",studentDetailsObj.Gochu);
+
+// Add new student###
+
+studentDetailsObj["panjali"] ={
+ rollNo : 4,
+ section : "c",
+ stream : "science",
+ contectNo : 34453433453,
+}
+console.log("add new student with details", studentDetailsObj);
+
+// delete###
+
+let deleteValue1= studentDetailsObj["Anu"];
+console.log("deleteValue1", deleteValue1) ;
+
+// console.log(" After delete anu", studentDetailsObj);
+
+// update
+studentDetailsObj["Anjana"].section = "A";
+console.log("after uddate section", studentDetailsObj);
