@@ -176,3 +176,35 @@ let result = getResult(4 , 8); // 12
 console.log(result);
 
 // 3 parameter
+
+function displayStudentN0(str, num, str1) {
+    let name4 = str + " " + num + " " + str1;
+    return name4;
+}
+let result0 = displayStudentN0("hello", 4, "universe") 
+console.log(result0);
+
+let result00= displayStudentN0("hii", 4, "tomm") 
+console.log(result00);
+
+
+// PERCETAGE###
+function getper(marks, totalNum, per) {
+    let percentage= marks / totalNum * per;
+    return percentage;
+}
+let result44 = getper(67, 100, 100);
+console.log(result44);
+
+let result11 = getper(200, 500, 100);
+console.log(result11);
+
+// Kudos Anjana!!!!
+
+function calculatePercentage(marks, totalNumber) {
+  let percentage = (marks / totalNumber) * 100;
+  return percentage + "%";
+}
+
+console.log(calculatePercentage(250, 500));
+console.log(calculatePercentage(400, 450));
