@@ -111,6 +111,7 @@ let carArr = ["Hynduai", "Suzuki", "BMW", "Farari", "Audi"];
 console.log("Car Array : ",carArr);
 
 // display indivisual cars
+// fetch
 console.log("display Hynduai car from ", carArr[0])
 
 // insert or add 
