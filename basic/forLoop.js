@@ -211,7 +211,7 @@ isEvenOrOdd(24);
 // fetch largest value from sorted array
 
 // sorted array means assending order
-
+         
 let numArr = [0, 1, 4, 8, 10, 16]; // sorted
 
 let numArr1 = [5, 1, 10, 23, 16, 90, 4]; // unsorted number
@@ -260,7 +260,7 @@ console.log("................");
 
 let testArr = [5, 7, 10, 11,  15, 20, 24, 30];
 
-let evenArrLength = testArr.length;
+let testArrLength = testArr.length;
 console.log("Length of array", testArr.length);
 
 for (let i = 0; i < evenArrLength; i++) {

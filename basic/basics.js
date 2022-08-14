@@ -2,7 +2,7 @@
 // let, const, if, var, function, for, return, switch .... etc.
 
 // variables : it is name for keyword
-// inisilization, decalration
+// inisilization(start), decalration
 
 // var is variable to store some data
 var a;
@@ -30,7 +30,6 @@ console.log("multiply of two number: ", n1 * n2);
 
 var mul = n1 * n3;
 console.log("multiply: ", mul);
-
 
 var name = "Anjana Swami"; // string
 console.log("abc ", name );
@@ -78,6 +77,7 @@ console.log(10 + " Swami");
 console.log("Anjana " + 10+ " Swami");
 console.log("Swami " + 5 + 5);
 console.log(5 + 5 + " Swami");
+console.log(6+ "navee" + 2);
 
 // Sum of num1 and num2 is equal to
 console.log("Sum of 5 and 2 is equal to", num1 + num2); // static : fixed string/ interger....

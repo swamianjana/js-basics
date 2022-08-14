@@ -17,7 +17,7 @@ let num3 = 198.09095; //float number
 let num4 = 165.00 // float number
 
 // character: single value
-// example: a-z,0-9, /, ., 
+// example: a-z,0-9, /, .,-+-+ 
 let ch = 'a'; // character
 let ch1 = 1; // numeric
 let ch2 = '.' // character
@@ -100,7 +100,7 @@ console.log("display 19 from array ", marksArr[4]);
 let checkTypeofMarksArr = typeof marksArr;
 console.log("type of marksArr ", checkTypeofMarksArr);
 
-let mixArr = [1, 12.15, "Naveen", true];
+let mixArr = [1, 12.15, "Naveen", true]; 
 console.log(mixArr);
 
 let car;

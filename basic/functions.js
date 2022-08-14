@@ -1,5 +1,6 @@
 // learn function
 // function: block of code which is use for specifc task/work.
+//  which is re-usable
 
 // 2 steps
 //  1) function inisilization/create 
@@ -88,13 +89,14 @@ displayFullName(fName3, lName3);
 // return = sum of num1 and num2 // number
 
 // work: get sum of two number
-function getSum(num1, num2) {
+(function getSum(num1, num2) {
     let sum = num1 + num2;
     return sum;
+
 }
 
-let sum1 =  getSum(50, 70);
-console.log(sum1);
+
+ console.log(getSum(50, 70));
 
 console.log(getSum(50, 70));
 
@@ -131,15 +133,15 @@ console.log(div);
 
 console.log(getdiv(40, 4));
 
-function displayNameNo(str, num) {
+function product(str, num) {
 let name = str + " " + num;
 return name;
 }
 
-let result2 = displayNameNo("swami", 34);
+let result2 = product("swami", 34);
 console.log(result2);
 
-let result3 = displayNameNo("xyz", 50);
+let result3 = product("xyz", 50);
 console.log(result3);
 // dynamicDisplayWord("anjana")
 
