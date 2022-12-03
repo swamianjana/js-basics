@@ -1,0 +1,23 @@
+HTTP response status codes
+
+1. Informational responses (100 – 199)
+2 [IMT]. Successful responses (200 – 299)
+3. Redirection messages (300 – 399)
+4. Client error responses (400 – 499)
+5. Server error responses (500 – 599)
+
+imp response status code
+
+1) 200 - OK
+2) 201 - created
+
+3) 301 -  Moved Permanently
+4) 302 - This response code means that the URI of requested resource has been changed temporarily.
+
+5) 400 Bad Request
+6) 401 Unauthorized - server know but yous authenticated wrong
+7) 403 Forbidden - server does not know aobut you
+8) 404 Not Found - url does not found
+
+9) 500 Internal Server Error - server not working
+10) 503 - Service Unavailable
