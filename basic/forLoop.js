@@ -44,8 +44,8 @@ for (; i < 5; i++) {
 // name == "naveen" // equal to:  both are equal then true otherwise false
 // name != "naveen" // Not equal to: both are not equal then true otherwise false
 // a < b
-// a == b
-// z === q 
+// a == b // value compare
+// z === q // data type and value compare
 // 5 > 7
 // i < arr.length 
 
@@ -326,5 +326,11 @@ if (reminder2 == 0) {
     console.log("even")
 }
 
-
 // multiply of all the numbers in the array
+
+
+/// compare double equal == and triple equal ===
+let abc = 123;
+let bcd = "123";
+abc == bcd  // true
+abc === bcd // false
